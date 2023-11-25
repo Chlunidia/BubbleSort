@@ -39,4 +39,16 @@ public:
             }
         }
     }
+
+    void display() {
+        std::cout << "\n----------------------------------";
+        std::cout << "\nSorted array elements";
+        std::cout << "\n----------------------------------";
+
+        for (int j = 0; j < n; j++) {
+            std::cout << "\n" << a[j];
+        }
+
+        std::cout << "\n";
+    }
 };
