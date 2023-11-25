@@ -52,3 +52,13 @@ public:
         std::cout << "\n";
     }
 };
+
+int main() {
+    BubbleSort myList;
+    myList.read();
+    myList.bubbleSortArray();
+    myList.display();
+    std::cout << "\n\nPress any key to exit";
+    std::cin.get();
+    return 0;
+}
